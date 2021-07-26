@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should add new item to list 1`] = `
+<div>
+  
+    
+  <form>
+    
+      
+    <input
+      class="add-input"
+      placeholder="dodaj do listy"
+      type="text"
+    />
+    
+      
+    <button
+      class="add-button"
+      type="submit"
+    >
+      
+        
+      <i
+        class="fas fa-plus"
+      />
+      
+      
+    </button>
+    
+      
+    <div
+      class="select"
+    >
+      
+        
+      <select
+        class="filter-options"
+        name="filters"
+      >
+        
+          
+        <option
+          value="all"
+        >
+          Wszystkie
+        </option>
+        
+          
+        <option
+          value="completed"
+        >
+          Kupione
+        </option>
+        
+          
+        <option
+          value="uncompleted"
+        >
+          Niekupione
+        </option>
+        
+        
+      </select>
+      
+      
+    </div>
+    
+    
+  </form>
+  
+    
+  <section
+    id="grocery-list-root"
+  >
+    
+      
+    <ul
+      class="grocery-list"
+    >
+      <li
+        class="grocery-list-item"
+      >
+        <span
+          class="grocery-list-item-text"
+        >
+          chleb
+        </span>
+        <button
+          class="complete-btn"
+        >
+          <i
+            class="fas fa-check"
+          />
+        </button>
+        <button
+          class="delete-btn"
+        >
+          <i
+            class="fas fa-trash"
+          />
+        </button>
+      </li>
+    </ul>
+    
+    
+  </section>
+  
+  
+</div>
+`;
+
+exports[`should hide uncompleted item after filter select 1`] = `
+<div>
+  
+    
+  <form>
+    
+      
+    <input
+      class="add-input"
+      placeholder="dodaj do listy"
+      type="text"
+    />
+    
+      
+    <button
+      class="add-button"
+      type="submit"
+    >
+      
+        
+      <i
+        class="fas fa-plus"
+      />
+      
+      
+    </button>
+    
+      
+    <div
+      class="select"
+    >
+      
+        
+      <select
+        class="filter-options"
+        name="filters"
+      >
+        
+          
+        <option
+          value="all"
+        >
+          Wszystkie
+        </option>
+        
+          
+        <option
+          value="completed"
+        >
+          Kupione
+        </option>
+        
+          
+        <option
+          value="uncompleted"
+        >
+          Niekupione
+        </option>
+        
+        
+      </select>
+      
+      
+    </div>
+    
+    
+  </form>
+  
+    
+  <section
+    id="grocery-list-root"
+  >
+    
+      
+    <ul
+      class="grocery-list"
+    >
+      <li
+        class="grocery-list-item"
+        style="display: none;"
+      >
+        <span
+          class="grocery-list-item-text"
+        >
+          chleb
+        </span>
+        <button
+          class="complete-btn"
+        >
+          <i
+            class="fas fa-check"
+          />
+        </button>
+        <button
+          class="delete-btn"
+        >
+          <i
+            class="fas fa-trash"
+          />
+        </button>
+      </li>
+    </ul>
+    
+    
+  </section>
+  
+  
+</div>
+`;

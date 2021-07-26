@@ -1,0 +1,54 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+header,
+form,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grocery-list {
+  width: 100%;
+  list-style: none;
+}
+.grocery-list-item {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+.grocery-list-item:last-child {
+  border: none;
+}
+.delete-btn,
+.complete-btn {
+  background: #f87171;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.complete-btn {
+  background: #34d399;
+}
+.grocery-list-item-text {
+  padding: 0rem 0.5rem;
+  flex: 1;
+}
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
